@@ -31,5 +31,6 @@ List flavors:
 
 * Mario David
 * Jorge Gomes
+* (Add more contributers here)
 
 
