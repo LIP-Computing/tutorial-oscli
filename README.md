@@ -3,7 +3,7 @@ Tutorial Openstack CLI
 
 ## Access to machine for the tutorial
 
-The openstack clients pre-installed in this machine, you can access with:
+The openstack clients are pre-installed in this machine, you can access with:
 
     ssh <USERNAME>@tut.ncg.ingrid.pt
 
