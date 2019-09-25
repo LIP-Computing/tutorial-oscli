@@ -137,6 +137,7 @@ To delete the server:
 
 * Mario David
 * Jorge Gomes
+* Alvaro Lopez Garcia
 * (Add more contributers here)
 
 
