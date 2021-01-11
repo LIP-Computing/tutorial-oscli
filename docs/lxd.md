@@ -102,7 +102,7 @@ lxc list
 ## Customizing the container and making a new image
 
 Now that the container is running, you can enter into the container and install packages or
-do anyother type of costumization.
+do anyother type of customization.
 
 ```bash
 lxc exec test-01 -- bash
@@ -157,7 +157,7 @@ lxc list
 +-----------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
 ```
 
-You new container `mycont-02` is running, while the old container had been stoped.
+Your new container `mycont-02` is running, while the old container had been stoped.
 
 To copy the authorized_keys present in the host into the container you can issue:
 
@@ -174,7 +174,7 @@ ubuntu@lxd-test:~$ ssh ubuntu@10.124.213.101
 From your (lap)desktop you can use a ssh tunnel through the public IP of the host VM to get into the lxc container:
 
 ```bash
-ssh -J ubuntu@PublicIP>:22 ubuntu@10.124.213.101
+ssh -J ubuntu@<PublicIP>:22 ubuntu@10.124.213.101
 ```
 
-Now you are inside the container, you can do a `sudo -s` to gain root previleges.
+Now you are inside the container, you can do a `sudo -s` to gain root privileges.
